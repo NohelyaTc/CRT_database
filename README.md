@@ -59,7 +59,6 @@ differences in ambulance deployments and percentage of double coverage achieved 
 
 
 
-
 -----------------------------------------------------------------------------------------------------
 
 2. The "database_GoogleMaps" folder contains the databases with information on the travel time estimate in Google Mpas. 
