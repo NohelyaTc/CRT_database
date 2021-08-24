@@ -27,6 +27,7 @@ data set 3 = Contains information from March 2017.
 data set 4 = Contains information from April 2017.
 
 
+
 ##The fields of the files are: 
 
 No UNIDAD        : It allows to identify the ambulance providing the service. 
@@ -54,6 +55,7 @@ DT               : The time difference of TGPS-TOSRM. (TGPS: GPS time) (TOSRM: O
 SALIDA           : Output labels DM (Medium Decrement), DP (Small Decrement) and INCREMENT. 
 
 SALIDA2          : Output labels; 3 (Medium Decrement), 2 (Small Decrement) and 1 (INCRMENT). 
+
 
 
 
