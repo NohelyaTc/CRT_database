@@ -1,6 +1,6 @@
 # Correction of the Travel Time Estimation for Ambulances of the Red Cross Tijuana using Machine Learning
 
-## Abstrack
+## Abstract
 
 This paper addresses the problem of estimating the response time to a medical emergency, specifically from the Red Cross of Tijuana (RCT), which provides most of the emergency medical services (EMS) in the city of Tijuana, Mexico.
 For institutions with low funding, such as the RCT, relying on free or open source mapping systems to estimate travel times is necessary but also error prone because these systems are not tuned for ambulance movements within a city.
@@ -12,3 +12,8 @@ For OSRM, performance was 64.6\%, 65.2\% and 66.4\% for each of the learning app
 Results show that it is possible to predict the level by which a mapping system over or under estimates the true travel time of an ambulance.
 Finally, the impact of the model is demonstrated by using it to solve the ambulance location problem, with notable
 differences in ambulance deployments and percentage of double coverage achieved relative to using the standard mapping system. The results shows that with no correction of the travel time the percentage of double coverage is 83.90\%; on the other hand, the double coverage when using travel time correction reaches 100\%.
+
+
+
+
+More details, see the publication at: 
