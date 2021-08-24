@@ -17,8 +17,11 @@ differences in ambulance deployments and percentage of double coverage achieved 
 1. The "database_OSRM" folder contains the databases with information on the travel time estimate in OSRM. 
 
 data set 0 = Contains information for the 4 months from January to April 2017 (2987 Emergency medical services). 
+
 data set 1 = Contains information from January 2017. 
+
 data set 2 = Contains information from February 2017.
+
 data set 3 = Contains information from March 2017.
 data set 4 = Contains information from April 2017
 
