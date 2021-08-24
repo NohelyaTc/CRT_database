@@ -12,49 +12,49 @@ Finally, the impact of the model is demonstrated by using it to solve the ambula
 differences in ambulance deployments and percentage of double coverage achieved relative to using the standard mapping system. The results shows that with no correction of the travel time the percentage of double coverage is 83.90\%; on the other hand, the double coverage when using travel time correction reaches 100\%.
 
 
-# CRT_database
+## CRT_database
 
 1. The "database_OSRM" folder contains the databases with information on the travel time estimate in OSRM. 
 
--data set 0 = Contains information for the 4 months from January to April 2017 (2987 Emergency medical services). 
+- data set 0 = Contains information for the 4 months from January to April 2017 (2987 Emergency medical services). 
 
--data set 1 = Contains information from January 2017. 
+- data set 1 = Contains information from January 2017. 
 
--data set 2 = Contains information from February 2017.
+- data set 2 = Contains information from February 2017.
 
--data set 3 = Contains information from March 2017.
+- data set 3 = Contains information from March 2017.
 
--data set 4 = Contains information from April 2017.
+- data set 4 = Contains information from April 2017.
 
 
 
 ##The fields of the files are: 
 
--No UNIDAD        : It allows to identify the ambulance providing the service. 
+- No UNIDAD        : It allows to identify the ambulance providing the service. 
 
--DIA              : Number that identifies the ambulance.
+- DIA              : Number that identifies the ambulance.
 
--MES              : Month in which the emergency service was given.
+- MES              : Month in which the emergency service was given.
 
--HORA SALIDA      : The departure time of the ambulance to the incident.
+- HORA SALIDA      : The departure time of the ambulance to the incident.
 
--TIEMPO DE VIAJE  : The estimated travel time in minutes, computed by OSRM.
+- TIEMPO DE VIAJE  : The estimated travel time in minutes, computed by OSRM.
 
--DISTANCIA METROS : Travel time by OSRM, from the point of departure to the place of the incident.
+- DISTANCIA METROS : Travel time by OSRM, from the point of departure to the place of the incident.
 
--LONGITUD SALIDA  : The longitude of the ambulance when it was dispatched.
+- LONGITUD SALIDA  : The longitude of the ambulance when it was dispatched.
 
--LATITUD SALIDA   : The latitude of the ambulance when it was dispatched.
+- LATITUD SALIDA   : The latitude of the ambulance when it was dispatched.
 
--LONGITUD LLEGADA : The longitude of the EMS incident determined by the GPS.
+- LONGITUD LLEGADA : The longitude of the EMS incident determined by the GPS.
 
--LATITUD LLEGADA  : The latitude of the EMS incident determined by the GPS.
+- LATITUD LLEGADA  : The latitude of the EMS incident determined by the GPS.
 
--DT               : The time difference of TGPS-TOSRM. (TGPS: GPS time) (TOSRM: OSRM time).
+- DT               : The time difference of TGPS-TOSRM. (TGPS: GPS time) (TOSRM: OSRM time).
 
--SALIDA           : Output labels DM (Medium Decrement), DP (Small Decrement) and INCREMENT. 
+- SALIDA           : Output labels DM (Medium Decrement), DP (Small Decrement) and INCREMENT. 
 
--SALIDA2          : Output labels; 3 (Medium Decrement), 2 (Small Decrement) and 1 (INCRMENT). 
+- SALIDA2          : Output labels; 3 (Medium Decrement), 2 (Small Decrement) and 1 (INCRMENT). 
 
 
 
@@ -63,13 +63,13 @@ differences in ambulance deployments and percentage of double coverage achieved 
 
 2. The "database_GoogleMaps" folder contains the databases with information on the travel time estimate in Google Mpas. 
 
--data set 0 = Contains information for the 4 months from January to April 2017  (2978 Emergency medical services)
+- data set 0 = Contains information for the 4 months from January to April 2017  (2978 Emergency medical services)
 
 The data is ordered in the same way as for OSRM, in this case the columns:
 
--TIEMPO DE VIAJE  : It is the estimate by Google Maps, from the point of departure to the place of the incident. 
+- TIEMPO DE VIAJE  : It is the estimate by Google Maps, from the point of departure to the place of the incident. 
 
--DT               : The time difference of TGPS-TG. (TGPS: GPS time) (TG: Google Maps time).
+- DT               : The time difference of TGPS-TG. (TGPS: GPS time) (TG: Google Maps time).
 						
 ----------------------------------------------------------------------------------------------------
 
