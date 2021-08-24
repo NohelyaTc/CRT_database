@@ -26,6 +26,8 @@ data set 3 = Contains information from March 2017.
 
 data set 4 = Contains information from April 2017
 
+The fields of the files are: 
+
 No UNIDAD        : It allows to identify the ambulance providing the service. 
 DIA              : Number that identifies the ambulance.
 MES              : Month in which the emergency service was given.
