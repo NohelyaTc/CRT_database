@@ -24,9 +24,10 @@ data set 2 = Contains information from February 2017.
 
 data set 3 = Contains information from March 2017.
 
-data set 4 = Contains information from April 2017
+data set 4 = Contains information from April 2017.
 
-The fields of the files are: 
+
+##The fields of the files are: 
 
 No UNIDAD        : It allows to identify the ambulance providing the service. 
 
@@ -56,6 +57,7 @@ SALIDA2          : Output labels; 3 (Medium Decrement), 2 (Small Decrement) and 
 
 
 
+
 -----------------------------------------------------------------------------------------------------
 
 2. The "database_GoogleMaps" folder contains the databases with information on the travel time estimate in Google Mpas. 
@@ -69,6 +71,9 @@ TIEMPO DE VIAJE  : It is the estimate by Google Maps, from the point of departur
 DT               : The time difference of TGPS-TG. (TGPS: GPS time) (TG: Google Maps time).
 						
 ----------------------------------------------------------------------------------------------------
+
+
+
 The data used for the Machine Learning algorithm are: 
 
 No UNIDAD, DIA, MES, HORA SALIDA, TIEMPO DE VIAJE, LONGITUD SALIDA,LATITUD SALIDA,LONGITUD LLEGADA, LATITUD LLEGADA, SALIDA. 
