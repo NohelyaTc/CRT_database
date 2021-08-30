@@ -18,4 +18,5 @@ differences in ambulance deployments and percentage of double coverage achieved 
 
 
 
-More details, see the publication at: 
+More details, see the publication at:
+https://authors.elsevier.com/sd/article/S0010-4825(21)00592-8 
