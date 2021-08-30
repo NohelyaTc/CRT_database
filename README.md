@@ -1,5 +1,7 @@
 # Correction of the Travel Time Estimation for Ambulances of the Red Cross Tijuana using Machine Learning
 
+Noelia Torres,  Leonardo Trujillo,  Yazmin Maldonado and  Carlos Vera
+
 ## Abstract
 
 This paper addresses the problem of estimating the response time to a medical emergency, specifically from the Red Cross of Tijuana (RCT), which provides most of the emergency medical services (EMS) in the city of Tijuana, Mexico.
